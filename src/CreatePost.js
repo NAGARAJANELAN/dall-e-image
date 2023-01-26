@@ -92,17 +92,13 @@ const CreatePost = () => {
       <div className="generated-image">
         {postQuery.photo ? (
           <img
-            width="342px"
             className="ai-image"
-            height="342px"
             src={postQuery.photo}
             alt={""}
           />
         ) : (
           <img
-            width="342px"
             className="ai-image"
-            height="342px"
             src={preview}
             alt={""}
           />
@@ -126,6 +122,7 @@ const CreatePost = () => {
           />
         )}
       </div>
+      <p style={{opacity:"30%"}}>Click icon to download</p>
     </div>
   );
 };
