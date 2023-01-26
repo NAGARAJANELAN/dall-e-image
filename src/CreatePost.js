@@ -27,7 +27,6 @@ const CreatePost = () => {
   });
 
   console.log("eevee");
-  console.log(process.env.REACT_APP_OPENAI_API_KEY);
   const [loading, setLoading] = React.useState(false);
 
   async function handleClick() {
