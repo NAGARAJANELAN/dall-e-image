@@ -70,10 +70,20 @@
     background-color: antiquewhite;
 }
 
-@media (min-width:424px) {
+@media (min-width:412px) {
     .ai-image{
         width: 342px;
         height: 342px;
+    }
+    .create-button{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width:824px) {
+    .ai-image{
+        width: 442px;
+        height: 442px;
     }
     .create-button{
         margin-top: 0px;
