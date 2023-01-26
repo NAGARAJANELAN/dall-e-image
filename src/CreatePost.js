@@ -122,7 +122,8 @@ const CreatePost = () => {
           />
         )}
       </div>
-      <p style={{opacity:"30%"}}>Click icon to download</p>
+{postQuery.photo && <p style={{opacity:"30%",marginLeft:"10px"}}>Click icon to download</p>}
+<footer className="credits">Created by - Nagarajan E</footer>
     </div>
   );
 };
