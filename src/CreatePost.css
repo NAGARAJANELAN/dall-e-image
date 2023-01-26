@@ -1,0 +1,65 @@
+.heading-section{
+    margin-left: 20px;
+}
+
+.community-heading{
+    font-weight: 700;
+}
+.info-msg{
+    margin-top: 10px;
+}
+
+.create-post-section{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.generated-image{
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 20px;
+    position: relative;
+    width: fit-content;
+}
+
+.form-field{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.create-button{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.ai-image{
+    border-radius: 6px;
+}
+
+.spinner{
+    color: darkgrey;
+    position: absolute;
+    left: 43%;
+    top: 40%;
+}
+
+.share-button{
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 6px;
+    background-color:lawngreen;
+    border-radius: 5px;
+}
+
+.download-icon{
+    bottom: 10px;
+    right: 8px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    background-color: antiquewhite;
+}

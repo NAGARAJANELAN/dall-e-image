@@ -1,0 +1,21 @@
+
+.App-header {
+  display: flex;
+  background-color: darkslateblue;
+  padding: 16px;
+  align-items: center;
+}
+
+.logo-image{
+  margin-right: auto;
+}
+.logo{
+  width:100px;
+}
+.create-button{
+  margin-right: 10px;
+  font-size: 1.2em;
+  color: rgb(37, 51, 196);
+  border-radius: 8px;
+  padding: 6px;
+}
