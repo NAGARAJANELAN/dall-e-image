@@ -1,14 +1,10 @@
 
 .App-header {
-  display: flex;
   background-color: darkslateblue;
   padding: 16px;
-  align-items: center;
 }
 
-.logo-image{
-  margin-right: auto;
-}
+
 .logo{
   width:100px;
 }
