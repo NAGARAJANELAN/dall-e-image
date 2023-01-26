@@ -1,9 +1,14 @@
 .input-field{
     /* width: 150px; */
-    width: 400px;
+    width: 250px;
     height: 40px;
     margin-left: 20px;
     text-indent: 6px;
     border: 2px solid black;
     border-radius: 5px;
+}
+@media (min-width:424px) {
+    .input-field{
+        width: 350px;
+    }
 }
