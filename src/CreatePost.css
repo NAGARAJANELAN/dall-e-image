@@ -20,6 +20,7 @@
     margin-left: 20px;
     position: relative;
     width: fit-content;
+    margin-bottom:20px;
 }
 
 .form-field{
@@ -32,10 +33,14 @@
 .create-button{
     margin-left: 20px;
     cursor: pointer;
+    background-color: aquamarine;
+    margin-top: 15px;
 }
 
 .ai-image{
-    border-radius: 6px;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
 }
 
 .spinner{
@@ -55,6 +60,7 @@
 }
 
 .download-icon{
+    opacity: 25%;
     bottom: 10px;
     right: 8px;
     width: 50px;
@@ -62,4 +68,14 @@
     position: absolute;
     cursor: pointer;
     background-color: antiquewhite;
+}
+
+@media (min-width:424px) {
+    .ai-image{
+        width: 342px;
+        height: 342px;
+    }
+    .create-button{
+        margin-top: 0px;
+    }
 }
